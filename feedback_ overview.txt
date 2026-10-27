@@ -1,0 +1,165 @@
+Completada después de 1 intento
+
+En tu carpeta mi-producto/ (no en caso-compartido/):
+
+Ejecuta /start-product. Si traes tu producto real, responde sobre él. Si no, usa una idea de producto tuya, con una sola condición: que tenga usuarios con los que puedas hablar durante el programa.
+Escribe tus creencias no verificadas a mano.
+Revisa el overview que te muestra la skill, corrige lo que haga falta y guárdalo.
+Haz commit y push a tu repo.
+Hoy damos de alta el producto, nada más: todavía no hay una apuesta ni una feature elegida.
+
+Luego, responde las preguntas listadas aquí debajo.
+
+Feedback
+Buen arranque: el overview está claro, declaraste modo (nuevo · comercial), acotaste el piloto a un barrio concreto y anclaste el problema en evidencia del chat. Además, tus creencias 1 y 2 están bien afiladas con umbrales medibles, y priorizaste en función del impacto en la adopción.
+
+Para complementar: vale la pena explicitar qué refutaría las creencias de viabilidad (3 y 4) y, en la #2, dejar trazado el dato exacto que mirarás. También anota qué es hecho vs. creencia para que el repo cuente una historia trazable.
+
+¿Te resultó útil?
+
+El feedback fue generado con IA a partir de parámetros e instrucciones especialmente diseñadas por tu instructor para los objetivos de aprendizaje de esta actividad. No es una respuesta genérica.
+
+1. ¿Cómo quedó tu overview, y qué evidencia demostraría falsa cada creencia?
+Pega tu product/overview.md tal como quedó. Si el overview no lo dice, ¿cuál es el modo (nuevo o existente, comercial o interno) y, si es interno, quién es el sponsor? Para cada creencia, ¿qué dato, entrevista o experimento te haría decir "estaba equivocado"?
+
+Si no puedes imaginar esa evidencia, la creencia todavía es una frase general: afílala aquí.
+
+Ejemplo de otro contexto:
+
+[overview pegado]
+
+Modo: producto existente e interno. Sponsor: gerencia de Operaciones.
+
+Creencias:
+- [value] Los coordinadores rehacen a mano el 30% de las rutas sugeridas. La demostraría falsa: un log de dos semanas con menos del 10% de rutas editadas.
+# Ofidi
+
+mode: new · commercial
+
+Ofidi (Oficios Diversos) es una web donde los vecinos de un barrio encuentran
+profesionales de oficios (plomeros, cerrajeros, jardineros, atmosféricos…)
+recomendados por otros vecinos. Cualquier vecino puede sugerir un profesional
+(login con Google) y calificarlo; los datos de los profesionales sólo se ven
+con login, para protegerlos, y para registrarse hace falta un código de
+invitación del barrio que se comparte en el grupo de WhatsApp. El profesional gana presencia gracias a la
+reputación que le dan los vecinos. Arranca como piloto gratuito en el barrio
+Los Sauces (City Bell, La Plata), con el link fijado en el grupo de WhatsApp,
+para reemplazar los pedidos de contactos que hoy se repiten en el chat. Se
+empieza por web, no app, para probar primero si funciona; la monetización
+queda para después (sponsors o fee a profesionales).
+
+## Para quién
+
+- **Vecinos de Los Sauces** (44 casas, ~44 usuarios): familias en casa con
+  parque que necesitan mantenimiento recurrente y hoy piden y se pasan
+  contactos en el grupo de WhatsApp del barrio. Son a la vez quienes consultan
+  y quienes sugieren y califican.
+- **Profesionales de oficios de la zona** que ya trabajan para el barrio por
+  recomendación: 41 candidatos identificados en el chat
+  (`materiales/candidatos-profesionales-interno.csv`), 3 confirmados para la
+  demo. Son poco tecnológicos: en el piloto no necesitan hacer nada en la web.
+
+Señal del problema (no prueba): ~87 pedidos de recomendación en el chat del
+barrio entre 2019 y 2025, con rubros que se repiten y vecinos que vuelven a
+preguntar lo mismo años después (`materiales/Chat de WhatsApp con Los Sauces 🍃/`).
+
+## Creencias no verificadas
+
+Ordenadas por impacto × incertidumbre — la primera es la próxima a atacar.
+
+1. [product] [value] Ofidi se convierte en la respuesta del grupo: cuando
+   alguien pide un profesional en el WhatsApp, otros vecinos contestan
+   "fijate en Ofidi" en lugar de pasar el contacto. En los primeros 3 meses del
+   piloto, al menos la mitad de los pedidos de recomendación en el grupo se
+   responden con Ofidi, y al menos 22 de las 44 casas buscan un profesional en
+   la web.
+2. [product] [value] Los vecinos van a alimentar la base, no sólo consultarla:
+   al menos 10 casas sugieren o califican un profesional (con login de Google)
+   en los primeros 3 meses. Sin aportes, la base envejece como el chat.
+3. [product] [viability] Comercios locales (corralones, viveros, ferreterías)
+   pagarían por aparecer como sponsor ante los vecinos del barrio. (A definir.)
+4. [product] [viability] Más adelante, los profesionales que consigan trabajos
+   por Ofidi pagarían un fee por estar listados, aunque sean poco tecnológicos.
+   (No se prueba en el piloto.)
+
+**Próxima a atacar: la creencia 1.** Si el grupo sigue pasándose contactos
+como siempre, el resto no importa.
+Feedback
+
+Lo que está bien
+
+Overview concreto y consistente con modo nuevo · comercial.
+Señal del problema con evidencia histórica del chat (87 pedidos) — buen ancla para "Lo que sabemos".
+Creencias 1 y 2 con sujeto y magnitud (cuántas casas, % de respuestas en WhatsApp) y foco correcto en adopción del piloto.
+Falsabilidad y evidencias
+
+Creencia 1 y 2: ya son falsables. Útil dejar explícito en el doc la evidencia que las tiraría abajo:
+C1 se refuta si, en 8–12 semanas de piloto, <50% de los pedidos en el grupo reciben "fijate en Ofidi" y/o <22 casas únicas buscan en la web (analytics + muestreo/regex del chat).
+C2 se refuta si, en el mismo período, <10 casas distintas crean sugerencias o dejan calificaciones (eventos con usuario logueado).
+Creencias 3 y 4 (viabilidad): hoy dicen "A definir". Afinarlas con umbral y fuente las vuelve accionables:
+C3 (sponsors) podría ser: "≥3 comercios locales están dispuestos a pagar ≥[monto] mensuales por sponsor por [beneficio esperado]". Se refuta si en 5–7 entrevistas con dueños/gerentes ninguno acepta ese rango o no hay presupuesto asignable.
+C4 (fee a profesionales): "≥30% de los profesionales contactados aceptarían pagar ≥[monto] /mes o por lead tras conseguir al menos 1 trabajo/mes por Ofidi". Se refuta si indican falta de interés o rechazo al cobro en entrevistas o test de pricing.
+Creencia vs. hecho y coherencia con el modo
+
+"44 casas", "41 candidatos identificados", "3 confirmados" y el histórico del chat son hechos: bien que estén como contexto.
+"Son poco tecnológicos" suena a creencia; si impacta decisiones (no onboardear profesionales en el piloto), déjala marcada como hipótesis para validar indirectamente más adelante.
+El gating por login/código es coherente con un piloto de barrio; monitorea su fricción porque afecta directo la C1.
+¿Te resultó útil?
+
+2. ¿Qué creencia atacas primero y por qué, y quién responde una creencia de valor y una de viabilidad?
+¿Cuál es tu creencia #1, por qué esa (impacto × incertidumbre) y cómo la atacarías (con quién hablarías o qué dato buscarías)? Elige una creencia [value] y una [viability]: ¿quién puede responder cada una? Si no tienes ninguna de viabilidad, formúlala aquí.
+
+Ejemplo de otro contexto:
+
+Creencia #1: los coordinadores rehacen el 30% de las rutas.
+- Por qué esa: si es falsa, no hay problema que resolver, y hoy solo tengo lo que dijo un jefe de zona.
+- Cómo la ataco: con el log de ediciones.
+
+Quién responde:
+- Valor: los coordinadores.
+- Viabilidad ("Operaciones renueva el presupuesto si el costo por entrega baja 15%"): la gerente de Operaciones, no los usuarios.
+La creencia 1 es la mas importante en primera instancia. 
+La voy a validar con el uso de la web en un periodo de tiempo.  POr ej en verano los oficios de jardinero y piletero entran en auge. 
+La 3 y 4 no me preocupan en este momento, depende como funciona el piloto. También puedo pensar en una expansión de otro barrio. 
+Feedback
+
+Validación inicial
+
+Elegir la Creencia 1 como prioritaria tiene sentido por impacto: si el grupo no redirige a Ofidi, el resto pierde importancia. Bien también notar la estacionalidad (jardín/pileta).
+Dónde afilar (impacto × incertidumbre y plan concreto)
+
+Falta explicitar la incertidumbre: ¿qué tan sólida es hoy la señal de que los vecinos responderán con "fijate en Ofidi"? Dejarlo escrito ayuda a sostener la prioridad.
+Plan más concreto para C1:
+Datos: instrumentar analytics (usuarios únicos por casa, búsquedas, contribuciones) y muestrear el WhatsApp para contar respuestas con "Ofidi" en 8–12 semanas.
+Con quién hablar: 5–7 vecinos que suelen responder pedidos en el grupo (los “recomendadores frecuentes”) y admins del chat para entender barreras a responder con el link.
+Operativa: acordar con 2–3 “champions” que contesten con el link fijado para iniciar el hábito y medir el efecto.
+Valor vs. viabilidad: quién responde cada una
+
+Valor (C1/C2): lo responden las personas del barrio (usuarios finales) y el comportamiento observado en el grupo + web.
+Viabilidad (C3/C4): la responden el negocio/sponsor potencial, no los usuarios. En tu caso: dueños/gerentes de corralones, viveros y ferreterías (presupuesto, objetivos, willingness-to-pay) y, más adelante, los propios profesionales respecto al fee.
+Esto deja trazado el qué, con quién y qué dato mirar, sin depender solo de “ver uso en el tiempo”.
+
+¿Te resultó útil?
+
+3. ¿Qué propuso la skill que tú cambiaste, y por qué?
+¿Qué propuso la IA, qué decidiste y por qué? Puede ser una creencia que inventó a partir de un documento, una frase general que aceptó, un ranking con el que no coincidiste o un tag mal puesto. Si no corregiste nada, ¿por qué aceptaste todo?
+
+Ejemplo de otro contexto:
+
+Qué propuso la IA: agregó "los repartidores quieren ver la ruta del día siguiente".
+Qué decidí: la saqué de las creencias hasta tener una señal.
+Por qué: yo nunca lo dije; lo sacó del documento de estrategia.
+En un principio le propuse que sea una web en lugar de una app, para que sea un piloto. 
+
+Me propuso lo siguiente los datos de los profesionales sólo se ven con login, para protegerlos, y para registrarse hace falta un código de invitación del barrio que se comparte en el grupo de WhatsApp. Por la ley 25326 sobre protección de datos personales
+Feedback
+
+Lo valioso
+
+Decisión clara de canal para el piloto (web en vez de app) con un porqué práctico.
+Registro de la propuesta de la IA (login + código de invitación) y el razonamiento por protección de datos (Ley 25.326).
+Complementos útiles de decisión
+
+Anota el trade-off: el login/código protege datos pero añade fricción que impacta directo en la Creencia 1 (que el grupo redirija y la gente encuentre rápido). Útil medir tasa de clic → login → búsqueda.
+Alternativas de bajo riesgo para el piloto que mantienen protección y bajan fricción: por ejemplo, vista limitada sin datos personales (nombre/rubro y reseñas), y revelar contacto sólo tras login.
+Deja explicitado en el repo si la restricción por privacidad es un requisito (constraint) o una hipótesis de diseño; así se interpreta correctamente su impacto en la adopción.
