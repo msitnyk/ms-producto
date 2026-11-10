@@ -90,6 +90,8 @@ Ordenadas por impacto × incertidumbre — la primera es la próxima a atacar.
    - **Dato exacto:** casos concretos relatados en entrevistas a vecinos
      identificados en el chat como quienes pidieron un profesional.
    - **Brief:** `product/opportunities/2026-10-27-1158-contexto-recomendaciones.md`.
+   — contradicted by product/insights/2026-11-10-1510-entrevistas-evaluar-recomendar-contactos.md (2026-11-10)
+   - **Reemplazada por la creencia 6** (oportunidad reencuadrada).
 3. [product] [value] Los vecinos van a alimentar la base, no sólo consultarla:
    al menos 10 casas sugieren o califican un profesional en las primeras 12
    semanas. Sin aportes, la base envejece como el chat.
@@ -111,6 +113,24 @@ Ordenadas por impacto × incertidumbre — la primera es la próxima a atacar.
    - **Se refuta si:** en conversaciones con los profesionales listados, menos
      del 30% acepta pagar, o rechazan el cobro de plano.
    - **Quién la responde:** los profesionales. No se prueba en el piloto.
+6. [opportunity: encontrar-sin-preguntar] [value] Volver a preguntar en el
+   grupo les cuesta a los vecinos lo suficiente como para buscar en otro lado
+   cuando lo tienen a mano. Para que se sostenga tienen que darse dos cosas: en
+   el chat de 2025 hay en promedio al menos 2 pedidos de recomendación por mes,
+   y en charlas con al menos 6 vecinos que pidieron en el grupo en el último
+   año, al menos 4 cuentan un episodio concreto en que buscaron primero en el
+   historial o en la agenda, postergaron o evitaron preguntar, o se sintieron
+   incómodos al hacerlo.
+   - **Se refuta si:** el recuento del chat de 2025 da menos de 2 pedidos por
+     mes, o menos de 4 de 6 vecinos cuentan un episodio así.
+   - **Dato exacto:** pedidos de recomendación por mes en la exportación del
+     chat de 2025, contados a mano además de la búsqueda heurística; episodios
+     relatados en las charlas.
+   - **Por qué importa ahora:** las entrevistas muestran una tensión. Los
+     vecinos describen repetición "todas las semanas", pero la búsqueda en el
+     chat da ~1 pedido por mes. Si son pocos, el dolor es más percepción que
+     volumen, y eso también afecta la métrica de la creencia 1.
+   - **Brief:** `product/opportunities/2026-11-10-1519-encontrar-sin-preguntar.md`.
 
 **Próxima a atacar: la creencia 1.** Además de mirar el uso, hablar con 5–7
 vecinos que suelen contestar pedidos en el grupo y con los admins del chat para

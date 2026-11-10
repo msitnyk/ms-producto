@@ -1,5 +1,6 @@
 ---
-status: framed
+status: discarded
+discarded: 2026-11-10 — reencuadrada en product/opportunities/2026-11-10-1519-encontrar-sin-preguntar.md. Las entrevistas (product/insights/2026-11-10-1510-entrevistas-evaluar-recomendar-contactos.md) refutaron su creencia de valor: 7 de 10 llaman sin trabajo extra y confían en lo que recomienda el grupo; el dolor está en volver a preguntar, no en elegir sin contexto.
 segment: Vecinos de Los Sauces (44 casas, City Bell) que piden o responden recomendaciones de profesionales en el grupo de WhatsApp del barrio
 personas: laura-benitez, ricardo-ferraro, hector-ramirez, teofilo-modesto, gabriela-montero, marcela-sosa, jorge-pereyra
 ---
