@@ -15,6 +15,8 @@ opportunity: contexto-recomendaciones
 - **n = 10 vecinos** (V1–V10), entrevistados el 4 de noviembre de 2026, con
   3 a 10 años en el barrio. El informe agregado dice 9; se usa el registro
   individual.
+- **Origen confirmado:** el PM confirmó el 2026-11-13 que fueron charlas
+  reales y que estas son sus notas.
 - **Las notas resumen hábitos más que episodios.** La guía pedía "la última
   vez que…", y la mayoría de los registros dice "suele", "siempre" o "casi
   nunca". Los conteos de abajo son sobre lo que dice cada nota.

@@ -1,7 +1,7 @@
 ---
 status: framed
 segment: Vecinos de Los Sauces (44 casas, City Bell), en su mayoría con 3 años o más en el barrio, que buscan un profesional ya recomendado en el grupo de WhatsApp o que leen los pedidos que se repiten
-personas: laura-benitez, ricardo-ferraro, hector-ramirez, teofilo-modesto, gabriela-montero, marcela-sosa, jorge-pereyra
+personas: daniel-ocampo, laura-benitez, ricardo-ferraro, hector-ramirez, teofilo-modesto, gabriela-montero, marcela-sosa, jorge-pereyra
 reframes: product/opportunities/2026-10-27-1158-contexto-recomendaciones.md
 ---
 
@@ -27,7 +27,8 @@ pocos (dato del PM; 10 de 10 entrevistados con 3 a 10 años).
 - Gabriela Montero (tertiary) — no lo sufre; puede respaldar o frenar lo que se ancle en el grupo
 - Marcela Sosa (negative) — no lo sufre en esta forma; lo que pide (garantía, pagos) sigue fuera del alcance
 - Jorge Pereyra (negative) — no lo sufre: no está en el grupo
-- Missing: **el vecino observador**, que casi no escribe en el grupo y es el que más se queja del ruido (V1, V6 y V8). Hoy no hay una persona con ese perfil
+- Daniel Ocampo (primary, derivado de 5 de 10 entrevistas reales, 2026-11-13) — lo sufre: busca lo ya recomendado en su agenda o en el historial y le molesta el ruido del grupo
+- Missing: none (el vecino nuevo existe en la encuesta, 4 de 15, pero sin entrevistas: Laura queda con confianza baja)
 
 ## Signals
 
@@ -70,11 +71,14 @@ Registradas en `product/overview.md`.
 | [product] [value] C1: el grupo redirige a Ofidi | Charlas con los 3 o 4 respondedores frecuentes (hay 1 entrevistado, V5) y con los admins del grupo: ¿les cambia algo responder con un link? | Cómo entra Ofidi al grupo y quién lo sostiene | Antes del piloto |
 | [product] [value] C3: los vecinos alimentan la base | Preguntarle a V5 y a los otros respondedores si cargarían sus contactos antes del lanzamiento; después, eventos durante el piloto | Quién carga la base inicial | Antes del piloto; medición: 12 semanas |
 
-## Candidate ideas (not evaluated)
+## Candidate ideas
 
-- Web con perfiles de profesionales y reseñas de vecinos (la idea original de Ofidi)
-- Lista o planilla fijada en el grupo de WhatsApp (lo que piden los entrevistados; es también la alternativa más barata)
-- Carga inicial de la base con los 3 o 4 respondedores frecuentes
-- Mostrar quién recomendó a cada profesional ("recomendado por…") y en qué zona trabaja
-- Señal privada en lugar de estrellas públicas ("¿lo volverías a llamar?", cuántos vecinos lo usaron)
-- Vista sin login con nombre, rubro y zona; el contacto, sólo después del login
+Evaluadas en `product/solutions/2026-11-13-1845-encontrar-sin-preguntar.md` (2026-11-13):
+
+- Web con perfiles de profesionales y reseñas de vecinos (la idea original de Ofidi) — **parked** (A1; vuelve si A4 muestra demanda)
+- Lista o planilla fijada en el grupo de WhatsApp — **discarded** (A2: expone los teléfonos y nadie la mantiene)
+- Carga inicial de la base con los 3 o 4 respondedores frecuentes — **parked** (no es una alternativa: es la fuente de contenido de todas)
+- Mostrar quién recomendó a cada profesional ("recomendado por…") y en qué zona trabaja — **parked** (absorbida en A1; A3 y A4 lo incluyen en el nombre o en la respuesta)
+- Señal privada en lugar de estrellas públicas — **parked** (absorbida en A1)
+- Vista sin login con nombre, rubro y zona — **parked** (absorbida en A1)
+- Nuevas en la exploración: número de WhatsApp a pedido (A4) — **chosen**; paquete de contactos para la agenda (A3) — **chosen**; etiquetas en el grupo (A5) — **discarded**

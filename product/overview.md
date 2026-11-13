@@ -78,6 +78,7 @@ Ordenadas por impacto × incertidumbre — la primera es la próxima a atacar.
      de jardinería y piletas. Más pedidos dan más volumen para medir, pero
      comparar contra el mismo período de años anteriores del chat, no contra
      el invierno.
+   — weakened by product/insights/2026-11-13-1817-sintesis-entrevistas-noviembre.md (2026-11-13)
 2. [opportunity: contexto-recomendaciones] [value] Elegir entre contactos
    sueltos les cuesta a los vecinos lo suficiente como para hacer algo al
    respecto hoy: en entrevistas, al menos 5 de 8 vecinos que pidieron un
@@ -131,6 +132,26 @@ Ordenadas por impacto × incertidumbre — la primera es la próxima a atacar.
      chat da ~1 pedido por mes. Si son pocos, el dolor es más percepción que
      volumen, y eso también afecta la métrica de la creencia 1.
    - **Brief:** `product/opportunities/2026-11-10-1519-encontrar-sin-preguntar.md`.
+   — weakened by product/insights/2026-11-13-1817-sintesis-entrevistas-noviembre.md (2026-11-13)
+7. [feature: whatsapp-a-pedido] [value] Los vecinos que necesitan un
+   profesional le escriben a un número del barrio en vez de preguntar en el
+   grupo: en 8 semanas de prueba, durante la temporada de noviembre a enero,
+   al menos 8 de las 44 casas hacen al menos un pedido.
+   - **Se refuta si:** a las 8 semanas, menos de 8 casas distintas hicieron un
+     pedido al número.
+   - **Dato exacto:** pedidos recibidos en el número, por casa, rubro y fecha.
+   - **Umbral provisional:** lo fija `/design-solution-tests`.
+   - **Solutions:** `product/solutions/2026-11-13-1845-encontrar-sin-preguntar.md` (A4).
+8. [feature: contactos-a-la-agenda] [value] Las casas que reciben el paquete
+   de contactos lo importan y lo usan: al menos la mitad de las casas que lo
+   reciben lo importan, y al menos 1 de cada 3 de las que contratan en las 8
+   semanas siguientes usa un contacto del paquete.
+   - **Se refuta si:** menos de la mitad lo importa, o menos de 1 de cada 3
+     casas que contrataron usó un contacto del paquete.
+   - **Dato exacto:** confirmación de importación por casa; consulta a las
+     casas que contrataron en el período.
+   - **Umbral provisional:** lo fija `/design-solution-tests`.
+   - **Solutions:** `product/solutions/2026-11-13-1845-encontrar-sin-preguntar.md` (A3).
 
 **Próxima a atacar: la creencia 1.** Además de mirar el uso, hablar con 5–7
 vecinos que suelen contestar pedidos en el grupo y con los admins del chat para
