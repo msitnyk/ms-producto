@@ -3,7 +3,7 @@ source: derived
 sources:
   - product/interviews/Informe de Resultados de Entrevista- registro individual.txt — real; 5 de 10 vecinos (V1, V2, V6, V8, V9)
   - product/insights/2026-10-27-2253-survey-como-conseguimos-profesionales.md — survey, n=15; 6 de 15 casas nunca pasaron un contacto; 4 de 13 ya tenían el contacto la última vez
-  - materiales/Chat de WhatsApp con Los Sauces 🍃/ — real; 66 pedidos en 7 años (menos del 1% del chat)
+  - materiales/Chat de WhatsApp con Los Sauces 🍃/ — real; 92 pedidos en 7 años y medio (menos del 1% del chat)
 derived: 2026-11-13
 ---
 

@@ -22,22 +22,13 @@ pocos (dato del PM; 10 de 10 entrevistados con 3 a 10 años).
 
 - Laura Benítez (primary) — lo sufre: le da vergüenza preguntar lo que ya se preguntó y no encuentra nada en el chat. Su perfil de "menos de 2 años" representa a pocos vecinos; el dolor también lo cuenta V4, con 3 años
 - Ricardo Ferraro (primary) — lo sufre a medias: contesta lo mismo una y otra vez, pero recomendar le da reconocimiento. Es quien tiene lo que hay que encontrar
-<<<<<<< HEAD
-- Héctor Ramírez (secondary) — no lo sufre
-- Teófilo "Modesto" (secondary) — no lo sufre
-- Gabriela Montero (tertiary) — no lo sufre; puede respaldar o frenar lo que se ancle en el grupo
-- Marcela Sosa (negative) — no lo sufre en esta forma; lo que pide (garantía, pagos) sigue fuera del alcance
-- Jorge Pereyra (negative) — no lo sufre: no está en el grupo
-- Daniel Ocampo (primary, derivado de 5 de 10 entrevistas reales, 2026-11-13) — lo sufre: busca lo ya recomendado en su agenda o en el historial y le molesta el ruido del grupo
-- Missing: none (el vecino nuevo existe en la encuesta, 4 de 15, pero sin entrevistas: Laura queda con confianza baja)
-=======
-- Héctor Ramírez (secondary) — no lo sufre: el trabajo le llega igual por boca a boca, y en el piloto no usa la web
-- Teófilo "Modesto" (secondary) — no lo sufre: es el contacto que circula, y en el piloto no usa la web
+- Daniel Ocampo (primary, derivado de 5 de 10 entrevistas reales, 2026-11-13) — lo sufre como lector: busca lo ya recomendado en su agenda o en el historial, casi no escribe en el grupo y le molesta el ruido y las notificaciones (V1, V6 y V8)
+- Héctor Ramírez (secondary) — no lo sufre: el trabajo le llega igual por boca a boca, y en el piloto no usa la herramienta
+- Teófilo "Modesto" (secondary) — no lo sufre: es el contacto que circula, y en el piloto no usa la herramienta
 - Gabriela Montero (tertiary) — no lo sufre, pero decide: como admin del grupo puede fijar el link y respaldar o frenar lo que se ancle en el grupo
 - Marcela Sosa (negative) — queda fuera: lo que pide (garantía, alguien responsable) no es encontrar el contacto
 - Jorge Pereyra (negative) — queda fuera: no es del barrio ni está en el grupo
-- Missing: **el vecino observador** — lo sufre como lector: casi no escribe en el grupo y es el que más se queja del ruido y las notificaciones (V1, V6 y V8). Hoy no hay una persona con ese perfil
->>>>>>> 9bb22e76781d1b0aeee615fb90d6fe330b983dc6
+- Missing: none (el vecino nuevo existe en la encuesta, 4 de 15, pero sin entrevistas: Laura queda con confianza baja)
 
 ## Signals
 
@@ -48,11 +39,11 @@ pocos (dato del PM; 10 de 10 entrevistados con 3 a 10 años).
 | A V4 le daba vergüenza preguntar por el fastidio de los demás | real | ídem |
 | 0 de 10 armaron una lista; 10 de 10 dicen que les vendría bien (opinión, posible inducción) | real | ídem |
 | 7 de 10 llaman sin trabajo extra; ningún mal resultado por falta de contexto. Los fallos vienen de profesionales externos al barrio | real | ídem |
-| 87 pedidos en 2019–2025, con rubros que vuelven años después | real | `materiales/Chat de WhatsApp con Los Sauces 🍃/` (heurístico) |
+| Rubros que vuelven años después (primer conteo: 87 pedidos; reemplazado por el conteo unificado de abajo) | real | `materiales/Chat de WhatsApp con Los Sauces 🍃/` (heurístico) |
 | **Tensión:** el chat da ~10 a 14 pedidos por año (~1 por mes), y los vecinos describen repetición "todas las semanas" o "10 veces lo mismo" | real vs. real | chat (heurístico) vs. entrevistas |
-| Recuento 2026-11-13 (búsqueda más estricta, pedido + rubro, revisada a mano): 58 pedidos de 27 solicitantes únicos entre 2019 y oct-2026. 2025: 9 pedidos de 9 solicitantes (0,75 por mes, debajo del umbral de 2 de la creencia 6, a confirmar con recuento manual). 2026 a octubre: 3 | real | `materiales/Chat de WhatsApp con Los Sauces 🍃/` (heurístico) |
-| Demanda concentrada: 2 solicitantes suman 15 de 58 pedidos (7 y 8); 13 preguntaron una sola vez. Son los primeros usuarios a conseguir y candidatos a entrevista | real | ídem (heurístico) |
-| Estacionalidad (todos los años, ene→dic): 5 6 3 3 3 8 5 4 4 5 10 2. Sin pico de verano (dic–feb 13 de 58, 22%); pico en noviembre (10) y junio (8); sep–nov 19 de 58 (33%). El volumen total de mensajes no acompaña el pico. A ~9–10 pedidos por 12 semanas, el 50% de la creencia 1 se mide sobre 4 o 5 casos: la métrica principal debería ser casas que buscan en la web, y la mejor ventana de prueba es primavera (sep–nov) | real | ídem (heurístico) |
+| **Conteo unificado 2026-11-13** (reemplaza los 87 y los 66 anteriores): búsqueda amplia (pedido + rubro) con cada candidato revisado a mano, sin falsos positivos ni repeticiones del mismo día. 92 pedidos de 32 solicitantes únicos entre may-2019 y oct-2026. Por año: 2019 5 · 2020 9 · 2021 16 · 2022 16 · 2023 13 · 2024 14 · **2025 13 (12 solicitantes; ~1,1 por mes, debajo del umbral de 2 de la creencia 6)** · 2026 a octubre 6. Es un piso: no capta audios ni pedidos con otras palabras | real | `materiales/Chat de WhatsApp con Los Sauces 🍃/` (heurístico + revisión manual) |
+| Demanda concentrada: 3 solicitantes suman 32 de 92 pedidos (16, 8 y 8); 11 preguntaron una sola vez. Son los primeros usuarios a conseguir y candidatos a entrevista | real | ídem |
+| Estacionalidad (todos los años, ene→dic): 13 7 6 4 4 8 6 8 6 7 16 7. **Pico de noviembre a enero: 36 de 92 (39%)**, contra 25% si fuera parejo; noviembre (16) y enero (13) son los meses más altos, diciembre queda en el promedio. Eso da unos 5 pedidos por temporada de nov–ene: el 50% de la creencia 1 se mediría sobre 2 o 3 casos, así que la métrica de adopción tiene que salir del canal propio (A4/A3), no del grupo | real | ídem |
 | 6 de 13 consiguieron el último contacto en el grupo; 4 ya lo tenían | survey (n=15) | `product/insights/2026-10-27-2253-survey-como-conseguimos-profesionales.md` |
 
 ## Business outcome

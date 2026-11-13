@@ -27,10 +27,12 @@ Hechos con su fuente. Lo que no tiene fuente va a creencias o a hipótesis.
 
 - El barrio tiene 44 casas y un consorcio con administrador externo y una
   comisión de vecinos — dicho por el PM, que vive en el barrio.
-- ~87 pedidos de recomendación en el grupo de WhatsApp entre 2019 y 2025, con
-  rubros que se repiten (atmosférico, plomero, cerrajero, jardinero) y vecinos
-  que vuelven a preguntar lo mismo años después — búsqueda de texto sobre
-  `materiales/Chat de WhatsApp con Los Sauces 🍃/`. Es señal de que el problema
+- 92 pedidos de recomendación en el grupo de WhatsApp entre mayo de 2019 y
+  octubre de 2026 (~13 por año; 13 en 2025), de 32 solicitantes, con rubros
+  que se repiten (atmosférico, plomero, cerrajero, jardinero, piletas) y pico
+  de noviembre a enero (39%) — búsqueda de texto revisada a mano sobre
+  `materiales/Chat de WhatsApp con Los Sauces 🍃/` (conteo unificado del
+  2026-11-13; es un piso). Es señal de que el problema
   existe, no prueba de que cambien de hábito.
 - 41 profesionales candidatos identificados a partir de los contactos
   compartidos en el chat, 3 confirmados para la demo —
@@ -155,6 +157,10 @@ Ordenadas por impacto × incertidumbre — la primera es la próxima a atacar.
    - **Umbral provisional:** lo fija `/design-solution-tests`.
    - **Solutions:** `product/solutions/2026-11-13-1845-encontrar-sin-preguntar.md` (A3).
 
-**Próxima a atacar: la creencia 1.** Además de mirar el uso, hablar con 5–7
-vecinos que suelen contestar pedidos en el grupo y con los admins del chat para
-entender qué les impediría responder con el link.
+**Próxima a atacar: la creencia 7** (número de WhatsApp a pedido), con la 8
+(paquete de contactos) como contraste. Las creencias 1 y 6 quedaron
+debilitadas: el grupo recibe ~13 pedidos por año (unos 5 por temporada de
+noviembre a enero), demasiado pocos para medir adopción ahí. Antes de lanzar
+cualquiera de las dos pruebas: diseñarlas con `/design-solution-tests`,
+conseguir el consentimiento de los profesionales y cubrir los rubros más
+pedidos (piletero, plomero, gasista, atmosférico, cerrajero).
