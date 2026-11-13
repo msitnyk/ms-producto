@@ -133,15 +133,17 @@ Ordenadas por impacto × incertidumbre — la primera es la próxima a atacar.
      volumen, y eso también afecta la métrica de la creencia 1.
    - **Brief:** `product/opportunities/2026-11-10-1519-encontrar-sin-preguntar.md`.
    — weakened by product/insights/2026-11-13-1817-sintesis-entrevistas-noviembre.md (2026-11-13)
-7. [feature: whatsapp-a-pedido] [value] Los vecinos que necesitan un
-   profesional le escriben a un número del barrio en vez de preguntar en el
-   grupo: en 8 semanas de prueba, durante la temporada de noviembre a enero,
-   al menos 8 de las 44 casas hacen al menos un pedido.
-   - **Se refuta si:** a las 8 semanas, menos de 8 casas distintas hicieron un
-     pedido al número.
-   - **Dato exacto:** pedidos recibidos en el número, por casa, rubro y fecha.
+7. [feature: planilla-compartida] [value] Unificar la información en una
+   planilla compartida sirve: los vecinos la usan cuando necesitan un
+   profesional y se mantiene viva. En 8 semanas de prueba, durante la
+   temporada de noviembre a enero, al menos 15 de las 44 casas la abren, y al
+   menos 3 personas además de Martín agregan o corrigen un profesional.
+   - **Se refuta si:** a las 8 semanas, menos de 15 casas distintas la
+     abrieron, o sólo Martín la editó.
+   - **Dato exacto:** cuentas con acceso que la abrieron (actividad del
+     archivo en Google Drive) e historial de versiones por editor.
    - **Umbral provisional:** lo fija `/design-solution-tests`.
-   - **Solutions:** `product/solutions/2026-11-13-1845-encontrar-sin-preguntar.md` (A4).
+   - **Solutions:** `product/solutions/2026-11-13-1845-encontrar-sin-preguntar.md` (A2).
 8. [feature: contactos-a-la-agenda] [value] Las casas que reciben el paquete
    de contactos lo importan y lo usan: al menos la mitad de las casas que lo
    reciben lo importan, y al menos 1 de cada 3 de las que contratan en las 8

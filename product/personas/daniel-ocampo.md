@@ -14,7 +14,7 @@ derived: 2026-11-13
 *(Frase compuesta a partir de las notas de V1, V6 y V8; no es una cita textual.)*
 
 - **Role:** Vecino observador de Los Sauces: lee el grupo, casi no escribe y resuelve solo con su agenda y el historial del chat
-- **Type:** primary. Sufre el problema: busca lo ya recomendado y le molesta el ruido. Que usaría una solución sólo está dicho como opinión (a confirmar con las pruebas de A3 y A4 en `product/solutions/`)
+- **Type:** primary. Sufre el problema: busca lo ya recomendado y le molesta el ruido. Que usaría una solución sólo está dicho como opinión (a confirmar con las pruebas de A2 y A3 en `product/solutions/`)
 - **Antigüedad en el barrio:** entre 3 años y medio y 9 (V9: 3,5; V2: 4; V6: 5; V1: 8; V8: 9)
 - **Age range:** no evidence yet
 - **Location:** Barrio Los Sauces (44 casas), City Bell, La Plata

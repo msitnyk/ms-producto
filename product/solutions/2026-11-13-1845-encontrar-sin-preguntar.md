@@ -1,7 +1,7 @@
 ---
 opportunity: encontrar-sin-preguntar
 status: testing-several
-chosen: whatsapp-a-pedido, contactos-a-la-agenda
+chosen: planilla-compartida, contactos-a-la-agenda
 tests:
 ---
 
@@ -48,11 +48,17 @@ Reemplaza la agenda propia y preguntar en el grupo. Absorbe las ideas sin
 evaluar de "recomendado por…", la señal privada en lugar de estrellas y la
 vista sin login.
 
-### A2. Planilla compartida fijada en el grupo (`planilla-compartida`)
-Una Google Sheet con rubro, nombre, zona, quién recomienda y teléfono,
-visible para quien tenga el link. No es software nuevo, es lo más chico que
-podría funcionar y es lo que pidieron los entrevistados. Reemplaza buscar en
-el historial.
+### A2. Planilla compartida (`planilla-compartida`)
+Una Google Sheet que unifica la información: rubro, nombre, zona, quién
+recomienda, su comentario y teléfono. **Versión elegida (2026-11-13):** se
+comparte con las cuentas de Google de cada vecino, no por link abierto; sólo
+incluye profesionales que dieron su consentimiento; la editan 2 o 3 personas
+con nombre (Martín y los que responden siempre, como V5), y el resto la ve y
+sugiere por un formulario o escribiéndole a un editor. No es software nuevo:
+es lo más chico que podría funcionar y lo que pidieron los entrevistados. Es
+A1 sin desarrollo. Para Daniel y Laura (primary), que buscan, y Ricardo
+(primary), que carga. Reemplaza buscar en el historial y preguntar en el
+grupo.
 
 ### A3. Paquete de contactos para la agenda (`contactos-a-la-agenda`)
 No reemplaza la agenda: la alimenta. Un set de tarjetas de contacto ya
@@ -80,7 +86,7 @@ Ataca que el historial no se puede buscar (V1, V9).
 |---|---|---|---|---|
 | Baseline: agenda, historial y preguntar | Funciona: respuesta en minutos y confianza en quien recomienda (real) | — | — | — |
 | A1 web-recomendaciones-firmadas | `mixed`: pain evidenced, relief not tested. La prueba de usabilidad de 2021 (n=5) muestra que se encuentra y contacta fácil, pero eso es usabilidad, no deseo (real, `materiales/Reporte Ux_Sitnyk.pptx`). Ricardo duda (synthetic) | `mixed`: hay una demo con 3 profesionales (overview). El resto, `to check with tech`. Consentimiento pendiente de 38 de 41 | `mixed` (assumption): es el producto, es medible y es donde iría un sponsor | Un vecino que necesita un profesional abre la web antes que su agenda o el grupo; con uso tan poco frecuente, login más código puede matarla |
-| A2 planilla-compartida | `mixed`: 10 de 10 dicen querer una lista (real, opinión, posible inducción). "Lo fijado no lo mira nadie" (synthetic) | `mixed`: técnicamente trivial, pero cualquiera con el link ve los teléfonos (choca con la Ley 25.326) | `weak`: no genera audiencia ni un modelo replicable | Se mantiene viva sin un responsable. 0 de 10 armaron o sostuvieron una lista (real) |
+| A2 planilla-compartida | `mixed`: 10 de 10 dicen querer una lista (real, opinión, posible inducción). "Lo fijado no lo mira nadie" (synthetic) | `strong` en lo técnico. Con link abierto choca con la Ley 25.326; en la versión elegida (acceso restringido, sólo profesionales con consentimiento) queda dentro de la restricción | `weak` como está (no genera audiencia ni un modelo replicable); `mixed` como prueba de A1: si la usan, confirma el valor de la web | Los vecinos la abren cuando necesitan un profesional, en vez de ir a la agenda o al grupo, y se mantiene viva con editores además de Martín. 0 de 10 sostuvieron una lista (real) |
 | A3 contactos-a-la-agenda | `mixed`: va sobre el hábito real (5 de 10 guardan en la agenda); nadie reaccionó a esta solución | `strong` en lo técnico: 202 tarjetas de contacto en `materiales/`. Necesita consentimiento | `weak`: después de mandar el paquete, Ofidi desaparece | Los vecinos importan el paquete y lo usan la próxima vez que contratan |
 | A4 whatsapp-a-pedido | `mixed`: ataca la vergüenza de preguntar (V4, real), en su canal y sin login; nadie lo probó | `strong` en la versión manual (Martín a mano). La automatización, `to check with tech` | `mixed`: canal propio y medible; es la versión manual de A1 | Los vecinos le escriben a un número que no es el grupo |
 | A5 etiquetas-en-el-grupo | `weak`: con 8 pedidos al año hay pocas recomendaciones nuevas para etiquetar, y lo viejo queda sin etiqueta | `strong`: no hay que construir nada; depende de los admins | `weak` | Los que recomiendan adoptan la norma, y aun así el volumen no alcanza |
@@ -91,33 +97,37 @@ origen (A1) no sale mejor que el resto.
 
 ## Decision
 
-**testing-several: A4 y A3**, elegidas por el PM el 2026-11-13. Coincide con
-la recomendación.
+**testing-several: A2 y A3**, elegidas por el PM el 2026-11-13.
 
-- **A4 es la principal.** Es la prueba más barata del valor central de Ofidi
-  (encontrar sin exponerse en el grupo), sin la fricción del login, y su
-  registro de pedidos mide cuántas casas, qué rubros y cuándo. Si funciona,
-  A1 es su versión a escala. Si nadie le escribe, A1 tampoco tiene a quién
-  servir.
+- **A2 es la principal.** Prueba lo que importa, la unificación de la
+  información en un solo lugar, sin desarrollo y sin depender de una persona
+  para responder. Si la usan, A1 es su versión a escala.
 - **A3 es el contraste.** Si el competidor real es la agenda propia, A3
-  prueba si alcanza con alimentarla. Si A3 le gana a A4, el rol de Ofidi
-  pasa a ser el de quien arma y actualiza contactos de confianza, no el de un
-  destino.
+  prueba si alcanza con alimentarla. Las dos juntas responden la pregunta de
+  fondo: ¿el vecino prefiere ir a buscar a un lugar común o tener los
+  contactos en su teléfono?
 - **Decide Daniel Ocampo** (primary, derivado): el observador que hoy se
   arregla con su agenda.
 
-Lo que cambiaría la decisión: si la demo de A1 está casi lista y se puede
-entrar sin código (código dentro del link y sesión que no vence), A1 se
-vuelve barata y conviene probarla junto a A4. Si los admins se oponen a un
-número aparte del grupo, A4 pierde fuerza.
+**Difiere de la recomendación de la IA**, que era A4 (número de WhatsApp) más
+A3 y descartaba A2. El PM eligió A2 porque A4 depende de una sola persona, y
+porque una planilla compartida prueba la unificación de la información. Las
+objeciones a A2 (exposición de teléfonos y mantenimiento) se resuelven en el
+diseño: acceso restringido, consentimiento y editores con nombre. Registrado
+en `product/corrections.md` (2026-11-13).
+
+Lo que cambiaría la decisión: si en las primeras semanas casi nadie abre la
+planilla, A4 (un canal donde se pregunta en vez de buscar) vuelve a ser
+candidata, con un número compartido entre varios editores.
 
 ## To test
 
-- **A4 — "Cuando un vecino necesita un profesional, le escribe a un número
-  del barrio que no es el grupo"**: es la que la mata. Todo el hábito actual
-  pasa por la agenda, el grupo o el privado, y un número nuevo es un canal
-  más que hay que recordar para una necesidad que aparece pocas veces al
-  año. Designed in /design-solution-tests.
+- **A2 — "Cuando un vecino necesita un profesional, abre la planilla en vez
+  de ir a su agenda o al grupo, y la planilla se mantiene viva con editores
+  además de Martín"**: es la que la mata. Es un lugar nuevo que hay que
+  recordar para una necesidad que aparece pocas veces al año ("lo fijado no
+  lo mira nadie", synthetic), y nunca nadie sostuvo una lista (0 de 10, real).
+  Designed in /design-solution-tests.
 - **A3 — "Las casas que reciben el paquete lo importan a la agenda y usan
   esos contactos la próxima vez que contratan"**: es la que la mata.
   Importar contactos es un paso que mucha gente no hace, y el uso puede
@@ -127,20 +137,19 @@ número aparte del grupo, A4 pierde fuerza.
   demanda (piletero, plomero, gasista, atmosférico, cerrajero), que hoy la
   base no tiene.
 
-## Value proposition: whatsapp-a-pedido (A4)
+## Value proposition: planilla-compartida (A2)
 
-- **Pain relieved:** la vergüenza y la exposición de preguntar en el grupo
-  (V4, real) y no encontrar lo ya recomendado en el historial (V1 y V9,
-  real).
-- **Gain created:** pedís en privado, a un solo número, y recibís los
-  contactos que ya usaron tus vecinos, con quién los recomendó, sin que lo lea
-  todo el barrio.
-- **Replaces:** preguntar en el grupo o por privado a un vecino. Se cambiaría
-  porque no expone al que pregunta, no suma ruido al grupo y no depende de
-  que el vecino que sabe esté conectado.
+- **Pain relieved:** no encontrar lo ya recomendado en el historial (V1 y
+  V9, real) y tener que volver a preguntar en el grupo, con la vergüenza que
+  eso trae (V4, real).
+- **Gain created:** todo lo que el barrio ya recomendó, en un solo lugar, por
+  rubro y zona, con quién lo recomendó y qué dijo, sin preguntarle a nadie.
+- **Replaces:** buscar a ciegas en el historial y preguntar en el grupo. Se
+  cambiaría porque está todo junto y ordenado, y no expone al que busca.
 - **Deliberately does not:** no intermedia ni garantiza trabajos (eso queda
-  para Marcela, negative), no publica calificaciones, no pide login ni app y
-  no reemplaza al grupo para lo urgente.
+  para Marcela, negative), no tiene calificaciones ni estrellas, no es
+  pública (sólo vecinos con acceso) y no incluye profesionales sin su
+  consentimiento.
 
 ## Value proposition: contactos-a-la-agenda (A3)
 
@@ -158,18 +167,18 @@ número aparte del grupo, A4 pierde fuerza.
 ## Beliefs
 
 - [opportunity: encontrar-sin-preguntar] [value] Volver a preguntar en el grupo les cuesta a los vecinos lo suficiente como para buscar en otro lado cuando lo tienen a mano (registrada en `product/overview.md`, creencia 6, `weakened`).
-- [feature: whatsapp-a-pedido] [value] Los vecinos que necesitan un profesional le escriben a un número del barrio en vez de preguntar en el grupo: en 8 semanas de prueba, durante la temporada de noviembre a enero, al menos 8 de 44 casas distintas hacen al menos un pedido. *(propuesta; pendiente de registro)*
-- [feature: contactos-a-la-agenda] [value] Las casas que reciben el paquete lo importan y lo usan: al menos la mitad de las casas que lo reciben lo importan, y al menos 1 de cada 3 de las que contratan en las 8 semanas siguientes usa un contacto del paquete. *(propuesta; pendiente de registro)*
+- [feature: planilla-compartida] [value] Unificar la información en una planilla compartida sirve: en 8 semanas de prueba, durante la temporada de noviembre a enero, al menos 15 de las 44 casas la abren, y al menos 3 personas además de Martín agregan o corrigen un profesional. *(registrada en `product/overview.md`, creencia 7)*
+- [feature: contactos-a-la-agenda] [value] Las casas que reciben el paquete lo importan y lo usan: al menos la mitad de las casas que lo reciben lo importan, y al menos 1 de cada 3 de las que contratan en las 8 semanas siguientes usa un contacto del paquete. *(registrada en `product/overview.md`, creencia 8)*
 
 Los umbrales finales los fija `/design-solution-tests`.
 
 ## Discarded or parked
 
-- **A1 web-recomendaciones-firmadas — parked:** vuelve si A4 muestra demanda
-  (si los vecinos le escriben al número, la web es su versión a escala) o si
-  la demo permite entrar sin código.
-- **A2 planilla-compartida — discarded:** expone los teléfonos a cualquiera
-  con el link (Ley 25.326), y nadie sostuvo nunca una lista (0 de 10).
+- **A1 web-recomendaciones-firmadas — parked:** vuelve si la planilla muestra
+  uso (la web es su versión a escala) o si la demo permite entrar sin código.
+- **A4 whatsapp-a-pedido — parked:** depende de una sola persona para
+  responder (decisión del PM, 2026-11-13). Vuelve si casi nadie abre la
+  planilla, con un número compartido entre varios editores.
 - **A5 etiquetas-en-el-grupo — discarded:** con 8 pedidos al año, la etiqueta
   apenas tendría contenido nuevo, y lo ya recomendado sigue sin encontrarse.
 - **Carga inicial con los 3 o 4 que responden siempre — parked:** no es una

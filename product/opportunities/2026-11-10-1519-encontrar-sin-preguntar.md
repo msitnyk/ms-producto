@@ -88,10 +88,10 @@ Registradas en `product/overview.md`.
 
 Evaluadas en `product/solutions/2026-11-13-1845-encontrar-sin-preguntar.md` (2026-11-13):
 
-- Web con perfiles de profesionales y reseñas de vecinos (la idea original de Ofidi) — **parked** (A1; vuelve si A4 muestra demanda)
-- Lista o planilla fijada en el grupo de WhatsApp — **discarded** (A2: expone los teléfonos y nadie la mantiene)
+- Web con perfiles de profesionales y reseñas de vecinos (la idea original de Ofidi) — **parked** (A1; vuelve si la planilla muestra uso: es su versión a escala)
+- Lista o planilla fijada en el grupo de WhatsApp — **chosen** (A2, como Google Sheet compartida con acceso restringido y editores con nombre; elegida por el PM el 2026-11-13, ver `product/corrections.md`)
 - Carga inicial de la base con los 3 o 4 respondedores frecuentes — **parked** (no es una alternativa: es la fuente de contenido de todas)
-- Mostrar quién recomendó a cada profesional ("recomendado por…") y en qué zona trabaja — **parked** (absorbida en A1; A3 y A4 lo incluyen en el nombre o en la respuesta)
+- Mostrar quién recomendó a cada profesional ("recomendado por…") y en qué zona trabaja — **parked** (absorbida en A1; A2 y A3 lo incluyen como columna o en el nombre del contacto)
 - Señal privada en lugar de estrellas públicas — **parked** (absorbida en A1)
 - Vista sin login con nombre, rubro y zona — **parked** (absorbida en A1)
-- Nuevas en la exploración: número de WhatsApp a pedido (A4) — **chosen**; paquete de contactos para la agenda (A3) — **chosen**; etiquetas en el grupo (A5) — **discarded**
+- Nuevas en la exploración: número de WhatsApp a pedido (A4) — **parked** (depende de una sola persona); paquete de contactos para la agenda (A3) — **chosen**; etiquetas en el grupo (A5) — **discarded**
