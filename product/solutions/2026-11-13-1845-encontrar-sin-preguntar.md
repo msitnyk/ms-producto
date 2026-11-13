@@ -10,8 +10,8 @@ tests:
 ## What the evidence says now
 
 - **[opportunity: encontrar-sin-preguntar] [value]** (creencia 6): `weakened`.
-  En 2025 hubo 8 pedidos en el grupo, contra los 2 por mes que pedía
-  (conteo heurístico; es un piso).
+  En 2025 hubo 13 pedidos en el grupo (~1,1 por mes), contra los 2 por mes
+  que pedía (conteo heurístico revisado a mano; es un piso).
   (`product/insights/2026-11-13-1817-sintesis-entrevistas-noviembre.md`, real)
 - Contratar es frecuente (13 de 15 casas en el año, survey), pero casi todo
   se resuelve **fuera del grupo**: agenda propia o historial (5 de 10, real).
@@ -83,7 +83,7 @@ Ataca que el historial no se puede buscar (V1, V9).
 | A2 planilla-compartida | `mixed`: 10 de 10 dicen querer una lista (real, opinión, posible inducción). "Lo fijado no lo mira nadie" (synthetic) | `mixed`: técnicamente trivial, pero cualquiera con el link ve los teléfonos (choca con la Ley 25.326) | `weak`: no genera audiencia ni un modelo replicable | Se mantiene viva sin un responsable. 0 de 10 armaron o sostuvieron una lista (real) |
 | A3 contactos-a-la-agenda | `mixed`: va sobre el hábito real (5 de 10 guardan en la agenda); nadie reaccionó a esta solución | `strong` en lo técnico: 202 tarjetas de contacto en `materiales/`. Necesita consentimiento | `weak`: después de mandar el paquete, Ofidi desaparece | Los vecinos importan el paquete y lo usan la próxima vez que contratan |
 | A4 whatsapp-a-pedido | `mixed`: ataca la vergüenza de preguntar (V4, real), en su canal y sin login; nadie lo probó | `strong` en la versión manual (Martín a mano). La automatización, `to check with tech` | `mixed`: canal propio y medible; es la versión manual de A1 | Los vecinos le escriben a un número que no es el grupo |
-| A5 etiquetas-en-el-grupo | `weak`: con 8 pedidos al año hay pocas recomendaciones nuevas para etiquetar, y lo viejo queda sin etiqueta | `strong`: no hay que construir nada; depende de los admins | `weak` | Los que recomiendan adoptan la norma, y aun así el volumen no alcanza |
+| A5 etiquetas-en-el-grupo | `weak`: con ~13 pedidos al año hay pocas recomendaciones nuevas para etiquetar, y lo viejo queda sin etiqueta | `strong`: no hay que construir nada; depende de los admins | `weak` | Los que recomiendan adoptan la norma, y aun así el volumen no alcanza |
 
 Control: ninguna alternativa tiene deseabilidad `strong`, porque toda la
 evidencia es sobre el problema y no sobre una solución. La favorita de
@@ -170,7 +170,7 @@ Los umbrales finales los fija `/design-solution-tests`.
   la demo permite entrar sin código.
 - **A2 planilla-compartida — discarded:** expone los teléfonos a cualquiera
   con el link (Ley 25.326), y nadie sostuvo nunca una lista (0 de 10).
-- **A5 etiquetas-en-el-grupo — discarded:** con 8 pedidos al año, la etiqueta
+- **A5 etiquetas-en-el-grupo — discarded:** con ~13 pedidos al año, la etiqueta
   apenas tendría contenido nuevo, y lo ya recomendado sigue sin encontrarse.
 - **Carga inicial con los 3 o 4 que responden siempre — parked:** no es una
   alternativa, es la fuente de contenido de cualquiera de ellas. Entra como

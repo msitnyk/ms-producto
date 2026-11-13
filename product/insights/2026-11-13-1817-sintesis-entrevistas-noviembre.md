@@ -5,7 +5,7 @@ sources:
   - product/interviews/2026-11-10-1538-ricardo-ferraro.md — source: synthetic (persona primary, validación de la web)
   - product/insights/2026-11-10-1510-entrevistas-evaluar-recomendar-contactos.md — análisis de las entrevistas reales
   - product/insights/2026-11-10-1538-ricardo-ferraro-validacion-web.md — análisis de la entrevista sintética
-  - materiales/Chat de WhatsApp con Los Sauces 🍃/ — source: real (conteo de pedidos por mes, 2026-11-13, heurístico + revisión manual: 66 pedidos)
+  - materiales/Chat de WhatsApp con Los Sauces 🍃/ — source: real (conteo de pedidos por mes, 2026-11-13, heurístico + revisión manual; conteo unificado: 92 pedidos, ver el brief de la oportunidad)
   - materiales/candidatos-profesionales-interno.csv — 41 profesionales candidatos
 date: 2026-11-13
 opportunity: encontrar-sin-preguntar
@@ -23,8 +23,8 @@ opportunity: encontrar-sin-preguntar
 ## 1. Ofidi no compite con el grupo: compite con la agenda propia y el mensaje privado
 
 Contratar es frecuente: 13 de 15 casas contrataron en el año, 10 de ellas dos
-veces o más. Pero pedir en el grupo es raro: **66 pedidos en 7 años y medio,
-8 en 2025, menos del 1% del chat.** El resto se resuelve sin pasar por el
+veces o más. Pero pedir en el grupo es raro: **92 pedidos en 7 años y medio,
+13 en 2025, menos del 1% del chat.** El resto se resuelve sin pasar por el
 grupo. Lo cuentan 5 de 10 entrevistados: guardan el contacto en la agenda del
 teléfono o lo buscan en el historial (V1, V2, V6, V8 y V9). En la encuesta, 4
 de 13 "ya lo tenían" y 2 de 13 preguntaron por privado. Cada casa pide en el
@@ -54,7 +54,7 @@ pero para un momento poco frecuente. La creencia 6 depende de esto.
 
 > Evidence: "Le irrita ver mensajes repetitivos todas las semanas pidiendo el mismo servicio básico." — V6 · "Al principio preguntaba mucho y le daba vergüenza porque notaba que algunos se fastidiaban con los pedidos reiterados." — V4
 
-**Recurrencia:** real 7 de 10 (molestia) y 1 de 10 (vergüenza al preguntar). Contradicho en volumen por el chat (8 pedidos en 2025). Sintético: Ricardo (el vidriero).
+**Recurrencia:** real 7 de 10 (molestia) y 1 de 10 (vergüenza al preguntar). Contradicho en volumen por el chat (13 pedidos en 2025). Sintético: Ricardo (el vidriero).
 
 ## 3. La confianza viene de quién recomienda, y lo negativo nunca se escribe: la recomendación tiene que ir firmada
 
@@ -94,15 +94,16 @@ protege la relación del vecino con el profesional.
 
 ## 5. El momento de más pedidos es noviembre a enero, por las piletas: el piloto llega justo, pero con poco volumen
 
-En el chat, noviembre (12) y enero (11) suman con diciembre el 41% de los
-pedidos. Casi la mitad de los de noviembre son de piletas (limpieza, bombas,
+En el chat, noviembre (16) y enero (13) suman con diciembre (7) el 39% de los
+pedidos (36 de 92), contra 25% si fueran parejos. Casi la mitad de los de noviembre son de piletas (limpieza, bombas,
 piletero), que es la preparación de la temporada. Coincide con lo que dicen
 las entrevistas: el piletero es lo que más se pide "todo el año" (V3) y lo
 que más se nombra (7 de 10). **Para el piloto:** arrancar ahora, con piletas
 como rubro ancla (la base no lo tiene, ver insight 4). Para comparar,
 contrastar contra noviembre a febrero de años anteriores, no contra el
-invierno. Contar con 5 a 7 pedidos en el grupo en 12 semanas. **Diciembre
-cae** (4 pedidos en 7 años): no conviene lanzar en las fiestas.
+invierno. Contar con unos 5 pedidos en el grupo por temporada de noviembre a enero.
+Diciembre queda en el promedio (7 en 7 años); el argumento para no lanzar en
+las fiestas es la atención de los vecinos, no el volumen.
 
 > Evidence: "Oficios críticos: piletero todo el año, plomería y cerrajería de urgencia." — V3
 
