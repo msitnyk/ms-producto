@@ -1,7 +1,7 @@
 ---
 opportunity: encontrar-sin-preguntar
 solutions: product/solutions/2026-11-13-1845-encontrar-sin-preguntar.md
-status: ready
+status: analyzed
 ---
 
 # Solution tests for: Lo que el grupo ya recomendó no se encuentra, y se vuelve a preguntar
@@ -237,9 +237,10 @@ no les saque a las casas el motivo para importar el paquete.
   `product/corrections.md`).
 - **Con quién y cuántos:** los mismos 6 editores de T1.
 - **Provenance:** real
-- **Result:** inconclusive. Cerrada antes de la duración diseñada; con 0
-  acciones no hay pass anticipado posible.
-- **Decision:** ninguna sobre A2.
+- **Result:** failed. Resultado fijado por el PM al cierre (2026-11-17), a
+  horas del aviso; el diseño pedía 48 h por editor y con 0 acciones a esa
+  altura correspondía `inconclusive`. Ver `product/corrections.md`.
+- **Decision:** discard A2.
 
 ### T2
 - **Result:** not run. Requiere T4 pasada y al menos 10 profesionales con
@@ -247,9 +248,17 @@ no les saque a las casas el motivo para importar el paquete.
 
 ## Decision
 
-Sin decisión sobre A2 ni sobre A3: T1, T3 y T4 quedaron inconclusive (las
-tres cerradas antes de la duración diseñada) y T2 no se corrió. Las
-creencias 7a, 7b y 8a siguen abiertas.
+**A2 planilla-compartida: discard.** 0 de 6 editores actuaron en dos
+versiones (vacía y precargada), con reacciones entusiastas. La planilla no
+se sostiene sin que alguien la cargue. La regla de T4 reactivaba A4 (número
+de WhatsApp); el PM no la reactiva: no quiere ser quien carga o atiende los
+profesionales.
+
+**A3 contactos-a-la-agenda:** sin evidencia (T3 inconclusive).
+
+T1 y T3 quedaron inconclusive y T4 failed por decisión del PM (las tres
+cerradas antes de la duración diseñada); T2 no se corrió. La creencia 7b
+queda weakened; 7a y 8a siguen abiertas.
 
 Patrón cualitativo, sin mover creencias: en dos versiones de la planilla
 (vacía y precargada), 0 de 6 editores hicieron una acción, aunque todos

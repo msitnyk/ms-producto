@@ -1,7 +1,7 @@
 ---
 opportunity: encontrar-sin-preguntar
 status: testing-several
-chosen: planilla-compartida, contactos-a-la-agenda
+chosen: contactos-a-la-agenda
 tests: product/tests/2026-11-16-1111-encontrar-sin-preguntar.md
 ---
 
@@ -174,9 +174,14 @@ Los umbrales finales los fija `/design-solution-tests`.
 
 - **A1 web-recomendaciones-firmadas — parked:** vuelve si la planilla muestra
   uso (la web es su versión a escala) o si la demo permite entrar sin código.
+- **A2 planilla-compartida — discarded (2026-11-17):** 0 de 6 editores
+  actuaron en dos versiones (vacía y precargada); resultado fijado por el PM
+  antes de las 48 h. Ver `product/tests/2026-11-16-1111-encontrar-sin-preguntar.md`.
 - **A4 whatsapp-a-pedido — parked:** depende de una sola persona para
   responder (decisión del PM, 2026-11-13). Vuelve si casi nadie abre la
-  planilla, con un número compartido entre varios editores.
+  planilla, con un número compartido entre varios editores. 2026-11-17: la
+  condición para volver se cumplió (T4), pero el PM no la reactiva: no
+  quiere ser quien carga los profesionales.
 - **A5 etiquetas-en-el-grupo — discarded:** con ~13 pedidos al año, la etiqueta
   apenas tendría contenido nuevo, y lo ya recomendado sigue sin encontrarse.
 - **Carga inicial con los 3 o 4 que responden siempre — parked:** no es una
@@ -194,6 +199,7 @@ Los umbrales finales los fija `/design-solution-tests`.
   choca con cómo se agendan los vecinos), 5 sin respuesta. Ninguna confirmó
   tener un contacto del paquete; 3 de 12 dijeron preferir la planilla. A3
   sigue en prueba sin evidencia. Mismo archivo de tests.
-- **2026-11-17 — T4 (A2) inconclusive:** planilla precargada, 0 acciones de
-  6 editores, cerrada el mismo día del aviso. A2 y A3 siguen en prueba sin
-  evidencia de solución.
+- **2026-11-17 — T4 (A2) failed → A2 discarded:** planilla precargada, 0
+  acciones de 6 editores. Resultado fijado por el PM el mismo día del aviso
+  (el diseño pedía 48 h). A4 no se reactiva (decisión del PM). A3 sigue en
+  prueba sin evidencia de solución.

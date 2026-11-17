@@ -51,3 +51,13 @@
 - **AI proposed:** cerrar T4 recién al cumplirse las 48 h del último editor (2026-11-19), leyendo el historial de versiones sin mandar mensajes.
 - **Human decided:** cerrar T4 el 2026-11-17, el día del aviso, como `inconclusive`, con 0 acciones en el historial.
 - **Why:** terminar las pruebas hoy y no cansar a los vecinos.
+
+- **Artifact:** `product/tests/2026-11-16-1111-encontrar-sin-preguntar.md`, T4 (`/analyze-solution-tests`)
+- **AI proposed:** con 0 acciones a horas del aviso, `inconclusive` (el diseño pedía 48 h por editor); para un `failed` válido, mirar el historial el 2026-11-19 sin mandar mensajes.
+- **Human decided:** marcar T4 como `failed` el 2026-11-17 y descartar A2.
+- **Why:** no esperar hasta el jueves. Límite: un `failed` anticipado no está respaldado por el diseño (la señal todavía podía crecer).
+
+- **Artifact:** `product/solutions/2026-11-13-1845-encontrar-sin-preguntar.md`, A4 (`/analyze-solution-tests`)
+- **AI proposed:** según la regla de T4, al descartarse A2 vuelve A4 (número de WhatsApp a pedido).
+- **Human decided:** no reactivar A4; queda parked.
+- **Why:** el PM no quiere quedar como el cargador de los profesionales.

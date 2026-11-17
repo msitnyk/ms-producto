@@ -149,6 +149,7 @@ Ordenadas por impacto × incertidumbre — la primera es la próxima a atacar.
    - **7b.** [feature: planilla-compartida] [value] La planilla se mantiene
      viva con editores además de Martín: al menos 3 personas además de Martín
      agregan o corrigen un profesional.
+     — weakened by `product/tests/2026-11-16-1111-encontrar-sin-preguntar.md` (2026-11-17)
      - **Se refuta si:** sólo Martín la edita.
      - **Dato exacto:** historial de versiones por editor.
    - **Umbrales:** los de arriba son los del piloto de 8 semanas (paso
