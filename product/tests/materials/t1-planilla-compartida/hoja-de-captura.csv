@@ -1,0 +1,8 @@
+Editor,Casa,Cómo se identificó (V5 / chat),Procedencia,Fecha invitación,Aceptó (sí/no),Acceso (fecha y hora),Recordatorio 24 h (fecha o "no hizo falta"),Profesionales agregados a las 24 h,Profesionales agregados a las 48 h,Correcciones a las 48 h,Cómo cargó (solo / con Martín / pidió que cargue Martín),Con consentimiento "sí",En "pendiente",Comentarios espontáneos
+Valentina,,,real,2026-11-16,sí,,,,,,pidió que cargue Martín,,,"""Está buenísima la idea."" Pidió que Martín cargue la info de antemano. ""Sólo puedo recomendar a Teófilo en primera instancia."""
+José María,,,real,2026-11-16,sí,,,,,,,,,"""¡La planilla está vacía! Después veo de cargar algo."""
+{vecino 3},,,real,2026-11-16,sí,,,,,,,,,"""Dale, después cargo."""
+{vecino 4},,,real,2026-11-16,sí,,,,,,pidió que cargue Martín,,,"Mandó un atmosférico (Gorina) para que lo cargue Martín. Mismo teléfono que ""Petrica Camion Atmosferico"" en candidatos-profesionales-interno.csv."
+{vecino 5},,,real,2026-11-16,sí,,,,,,pidió que cargue Martín,,,"""Está buena la idea. Che, ¿no se puede cargar la info que ya tenemos?"" (pide precargar)."
+Roberto,,chat (pasa contactos seguido),real,2026-11-16,,,,,,,,,,"Sumado como 6.º editor el 2026-11-16 (ver corrections.md). En la semana previa a la invitación pasó 2 contactos por el grupo."
+Nota de cierre (2026-11-17),,,real,,,,"Recordatorio enviado a los que no cargaron",,,,,,,"Respuestas al recordatorio: uno ""me olvidé"", otro ""no tengo tiempo"". Cerrada antes de las 48 h como inconclusive (decisión del PM). Historial de versiones sin verificar."

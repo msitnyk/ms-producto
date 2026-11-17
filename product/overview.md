@@ -135,30 +135,45 @@ Ordenadas por impacto × incertidumbre — la primera es la próxima a atacar.
      volumen, y eso también afecta la métrica de la creencia 1.
    - **Brief:** `product/opportunities/2026-11-10-1519-encontrar-sin-preguntar.md`.
    — weakened by product/insights/2026-11-13-1817-sintesis-entrevistas-noviembre.md (2026-11-13)
-7. [feature: planilla-compartida] [value] Unificar la información en una
-   planilla compartida sirve: los vecinos la usan cuando necesitan un
-   profesional y se mantiene viva. En 8 semanas de prueba, durante la
-   temporada de noviembre a enero, al menos 15 de las 44 casas la abren, y al
-   menos 3 personas además de Martín agregan o corrigen un profesional.
-   - **Se refuta si:** a las 8 semanas, menos de 15 casas distintas la
-     abrieron, o sólo Martín la editó.
-   - **Dato exacto:** cuentas con acceso que la abrieron (actividad del
-     archivo en Google Drive) e historial de versiones por editor.
-   - **Umbral provisional:** lo fija `/design-solution-tests`.
-   - **Solutions:** `product/solutions/2026-11-13-1845-encontrar-sin-preguntar.md` (A2).
-8. [feature: contactos-a-la-agenda] [value] Las casas que reciben el paquete
-   de contactos lo importan y lo usan: al menos la mitad de las casas que lo
-   reciben lo importan, y al menos 1 de cada 3 de las que contratan en las 8
-   semanas siguientes usa un contacto del paquete.
-   - **Se refuta si:** menos de la mitad lo importa, o menos de 1 de cada 3
-     casas que contrataron usó un contacto del paquete.
-   - **Dato exacto:** confirmación de importación por casa; consulta a las
-     casas que contrataron en el período.
-   - **Umbral provisional:** lo fija `/design-solution-tests`.
-   - **Solutions:** `product/solutions/2026-11-13-1845-encontrar-sin-preguntar.md` (A3).
+7. Partida el 2026-11-16 en 7a y 7b (`/design-solution-tests`): juntaba dos
+   cosas que pueden fallar por separado. Solutions:
+   `product/solutions/2026-11-13-1845-encontrar-sin-preguntar.md` (A2).
+   - **7a.** [feature: planilla-compartida] [value] Cuando un vecino necesita
+     un profesional, abre la planilla en vez de ir a su agenda o al grupo. En
+     8 semanas, durante la temporada de noviembre a enero, al menos 15 de las
+     44 casas la abren.
+     - **Se refuta si:** a las 8 semanas, menos de 15 casas distintas la
+       abrieron.
+     - **Dato exacto:** cuentas con acceso que la abrieron (actividad del
+       archivo en Google Drive).
+   - **7b.** [feature: planilla-compartida] [value] La planilla se mantiene
+     viva con editores además de Martín: al menos 3 personas además de Martín
+     agregan o corrigen un profesional.
+     - **Se refuta si:** sólo Martín la edita.
+     - **Dato exacto:** historial de versiones por editor.
+   - **Umbrales:** los de arriba son los del piloto de 8 semanas (paso
+     tardío). El primer paso de cada una lo fija
+     `/design-solution-tests`.
+8. Partida el 2026-11-16 en 8a y 8b (`/design-solution-tests`): son dos pasos
+   que se ven en momentos distintos. Solutions:
+   `product/solutions/2026-11-13-1845-encontrar-sin-preguntar.md` (A3).
+   - **8a.** [feature: contactos-a-la-agenda] [value] Las casas que reciben el
+     paquete de contactos lo importan a la agenda: al menos la mitad de las
+     casas que lo reciben.
+     - **Se refuta si:** menos de la mitad lo importa.
+     - **Dato exacto:** confirmación de importación por casa.
+   - **8b.** [feature: contactos-a-la-agenda] [value] Las casas que importaron
+     el paquete usan sus contactos cuando contratan: al menos 1 de cada 3 de
+     las que contratan en las 8 semanas siguientes usa un contacto del
+     paquete.
+     - **Se refuta si:** menos de 1 de cada 3 casas que contrataron usó un
+       contacto del paquete.
+     - **Dato exacto:** consulta a las casas que contrataron en el período.
+   - **Umbrales:** el primer paso lo fija `/design-solution-tests`.
 
-**Próxima a atacar: la creencia 7** (número de WhatsApp a pedido), con la 8
-(paquete de contactos) como contraste. Las creencias 1 y 6 quedaron
+**Próxima a atacar: la creencia 7b** (que la planilla se mantenga con editores
+además de Martín), con la 8a (que importen el paquete de contactos) como
+contraste. Las creencias 1 y 6 quedaron
 debilitadas: el grupo recibe ~13 pedidos por año (unos 5 por temporada de
 noviembre a enero), demasiado pocos para medir adopción ahí. Antes de lanzar
 cualquiera de las dos pruebas: diseñarlas con `/design-solution-tests`,

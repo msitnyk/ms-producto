@@ -2,7 +2,7 @@
 opportunity: encontrar-sin-preguntar
 status: testing-several
 chosen: planilla-compartida, contactos-a-la-agenda
-tests:
+tests: product/tests/2026-11-16-1111-encontrar-sin-preguntar.md
 ---
 
 # Solutions for: Lo que el grupo ya recomendó no se encuentra, y se vuelve a preguntar
@@ -86,8 +86,8 @@ Ataca que el historial no se puede buscar (V1, V9).
 |---|---|---|---|---|
 | Baseline: agenda, historial y preguntar | Funciona: respuesta en minutos y confianza en quien recomienda (real) | — | — | — |
 | A1 web-recomendaciones-firmadas | `mixed`: pain evidenced, relief not tested. La prueba de usabilidad de 2021 (n=5) muestra que se encuentra y contacta fácil, pero eso es usabilidad, no deseo (real, `materiales/Reporte Ux_Sitnyk.pptx`). Ricardo duda (synthetic) | `mixed`: hay una demo con 3 profesionales (overview). El resto, `to check with tech`. Consentimiento pendiente de 38 de 41 | `mixed` (assumption): es el producto, es medible y es donde iría un sponsor | Un vecino que necesita un profesional abre la web antes que su agenda o el grupo; con uso tan poco frecuente, login más código puede matarla |
-| A2 planilla-compartida | `mixed`: 10 de 10 dicen querer una lista (real, opinión, posible inducción). "Lo fijado no lo mira nadie" (synthetic) | `strong` en lo técnico. Con link abierto choca con la Ley 25.326; en la versión elegida (acceso restringido, sólo profesionales con consentimiento) queda dentro de la restricción | `weak` como está (no genera audiencia ni un modelo replicable); `mixed` como prueba de A1: si la usan, confirma el valor de la web | Los vecinos la abren cuando necesitan un profesional, en vez de ir a la agenda o al grupo, y se mantiene viva con editores además de Martín. 0 de 10 sostuvieron una lista (real) |
-| A3 contactos-a-la-agenda | `mixed`: va sobre el hábito real (5 de 10 guardan en la agenda); nadie reaccionó a esta solución | `strong` en lo técnico: 202 tarjetas de contacto en `materiales/`. Necesita consentimiento | `weak`: después de mandar el paquete, Ofidi desaparece | Los vecinos importan el paquete y lo usan la próxima vez que contratan |
+| A2 planilla-compartida | `mixed`: pain evidenced, relief not tested. 10 de 10 dicen querer una lista (real, opinión, posible inducción). "Lo fijado no lo mira nadie" (synthetic) | `strong` en lo técnico. Con link abierto choca con la Ley 25.326; en la versión elegida (acceso restringido, sólo profesionales con consentimiento) queda dentro de la restricción | `weak` como está (no genera audiencia ni un modelo replicable); `mixed` como prueba de A1: si la usan, confirma el valor de la web | Los vecinos la abren cuando necesitan un profesional, en vez de ir a la agenda o al grupo, y se mantiene viva con editores además de Martín. 0 de 10 sostuvieron una lista (real) |
+| A3 contactos-a-la-agenda | `mixed`: pain evidenced, relief not tested. Va sobre el hábito real (5 de 10 guardan en la agenda); nadie reaccionó a esta solución | `strong` en lo técnico: 202 tarjetas de contacto en `materiales/`. Necesita consentimiento | `weak`: después de mandar el paquete, Ofidi desaparece | Los vecinos importan el paquete y lo usan la próxima vez que contratan |
 | A4 whatsapp-a-pedido | `mixed`: ataca la vergüenza de preguntar (V4, real), en su canal y sin login; nadie lo probó | `strong` en la versión manual (Martín a mano). La automatización, `to check with tech` | `mixed`: canal propio y medible; es la versión manual de A1 | Los vecinos le escriben a un número que no es el grupo |
 | A5 etiquetas-en-el-grupo | `weak`: con ~13 pedidos al año hay pocas recomendaciones nuevas para etiquetar, y lo viejo queda sin etiqueta | `strong`: no hay que construir nada; depende de los admins | `weak` | Los que recomiendan adoptan la norma, y aun así el volumen no alcanza |
 
@@ -122,16 +122,12 @@ candidata, con un número compartido entre varios editores.
 
 ## To test
 
-- **A2 — "Cuando un vecino necesita un profesional, abre la planilla en vez
-  de ir a su agenda o al grupo, y la planilla se mantiene viva con editores
-  además de Martín"**: es la que la mata. Es un lugar nuevo que hay que
-  recordar para una necesidad que aparece pocas veces al año ("lo fijado no
-  lo mira nadie", synthetic), y nunca nadie sostuvo una lista (0 de 10, real).
-  Designed in /design-solution-tests.
-- **A3 — "Las casas que reciben el paquete lo importan a la agenda y usan
-  esos contactos la próxima vez que contratan"**: es la que la mata.
-  Importar contactos es un paso que mucha gente no hace, y el uso puede
-  ocurrir meses después del envío. Designed in /design-solution-tests.
+Diseñado en `product/tests/2026-11-16-1111-encontrar-sin-preguntar.md`
+(2026-11-16), en el orden T1 → T3 → T2:
+
+- **T1 (A2, creencia 7b):** los que responden cargan la planilla.
+- **T3 (A3, creencia 8a):** paquete de contactos por privado a 12 casas.
+- **T2 (A2, creencia 7a):** pedido de acceso a la planilla en el grupo.
 - **Común a las dos:** consentimiento de los profesionales antes de compartir
   cualquier contacto (Ley 25.326) y contactos para los rubros de mayor
   demanda (piletero, plomero, gasista, atmosférico, cerrajero), que hoy la
@@ -167,28 +163,21 @@ candidata, con un número compartido entre varios editores.
 ## Beliefs
 
 - [opportunity: encontrar-sin-preguntar] [value] Volver a preguntar en el grupo les cuesta a los vecinos lo suficiente como para buscar en otro lado cuando lo tienen a mano (registrada en `product/overview.md`, creencia 6, `weakened`).
-- [feature: planilla-compartida] [value] Unificar la información en una planilla compartida sirve: en 8 semanas de prueba, durante la temporada de noviembre a enero, al menos 15 de las 44 casas la abren, y al menos 3 personas además de Martín agregan o corrigen un profesional. *(registrada en `product/overview.md`, creencia 7)*
-- [feature: contactos-a-la-agenda] [value] Las casas que reciben el paquete lo importan y lo usan: al menos la mitad de las casas que lo reciben lo importan, y al menos 1 de cada 3 de las que contratan en las 8 semanas siguientes usa un contacto del paquete. *(registrada en `product/overview.md`, creencia 8)*
+- [feature: planilla-compartida] [value] Cuando un vecino necesita un profesional, abre la planilla en vez de ir a su agenda o al grupo: en 8 semanas, durante la temporada de noviembre a enero, al menos 15 de las 44 casas la abren. *(registrada en `product/overview.md`, creencia 7a)*
+- [feature: planilla-compartida] [value] La planilla se mantiene viva con editores además de Martín: al menos 3 personas además de Martín agregan o corrigen un profesional. *(registrada en `product/overview.md`, creencia 7b)*
+- [feature: contactos-a-la-agenda] [value] Las casas que reciben el paquete lo importan a la agenda: al menos la mitad. *(registrada en `product/overview.md`, creencia 8a)*
+- [feature: contactos-a-la-agenda] [value] Las casas que importaron el paquete usan sus contactos cuando contratan: al menos 1 de cada 3 de las que contratan en las 8 semanas siguientes. *(registrada en `product/overview.md`, creencia 8b)*
 
 Los umbrales finales los fija `/design-solution-tests`.
 
 ## Discarded or parked
 
-<<<<<<< HEAD
 - **A1 web-recomendaciones-firmadas — parked:** vuelve si la planilla muestra
   uso (la web es su versión a escala) o si la demo permite entrar sin código.
 - **A4 whatsapp-a-pedido — parked:** depende de una sola persona para
   responder (decisión del PM, 2026-11-13). Vuelve si casi nadie abre la
   planilla, con un número compartido entre varios editores.
-- **A5 etiquetas-en-el-grupo — discarded:** con 8 pedidos al año, la etiqueta
-=======
-- **A1 web-recomendaciones-firmadas — parked:** vuelve si A4 muestra demanda
-  (si los vecinos le escriben al número, la web es su versión a escala) o si
-  la demo permite entrar sin código.
-- **A2 planilla-compartida — discarded:** expone los teléfonos a cualquiera
-  con el link (Ley 25.326), y nadie sostuvo nunca una lista (0 de 10).
 - **A5 etiquetas-en-el-grupo — discarded:** con ~13 pedidos al año, la etiqueta
->>>>>>> 2f810d97e6c52835bd109aaad2a1bcdde3d443d8
   apenas tendría contenido nuevo, y lo ya recomendado sigue sin encontrarse.
 - **Carga inicial con los 3 o 4 que responden siempre — parked:** no es una
   alternativa, es la fuente de contenido de cualquiera de ellas. Entra como
@@ -196,4 +185,15 @@ Los umbrales finales los fija `/design-solution-tests`.
 
 ## Outcome
 
-*(Lo agrega /analyze-solution-tests.)*
+- **2026-11-17 — T1 (A2) inconclusive:** cerrada antes de tiempo, nadie
+  cargó y 3 de 6 editores pidieron que la planilla venga precargada. Sin
+  cambios en las alternativas. Próximo paso: rediseñar T1 con la planilla
+  precargada. Ver `product/tests/2026-11-16-1111-encontrar-sin-preguntar.md`.
+- **2026-11-17 — T3 (A3) inconclusive:** consulta adelantada al día del
+  envío; 3 de 12 casas con 0 contactos, 4 no medibles (el marcador "Sauces"
+  choca con cómo se agendan los vecinos), 5 sin respuesta. Ninguna confirmó
+  tener un contacto del paquete; 3 de 12 dijeron preferir la planilla. A3
+  sigue en prueba sin evidencia. Mismo archivo de tests.
+- **2026-11-17 — T4 (A2) inconclusive:** planilla precargada, 0 acciones de
+  6 editores, cerrada el mismo día del aviso. A2 y A3 siguen en prueba sin
+  evidencia de solución.

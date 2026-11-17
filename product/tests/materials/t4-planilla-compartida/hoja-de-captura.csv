@@ -1,0 +1,8 @@
+Editor,Procedencia,Aviso enviado (fecha y hora),Recordatorio 24 h (fecha o "no hizo falta"),Filas firmadas,Correcciones,Profesionales agregados,Rubros de lo agregado,Total de acciones a las 48 h,Cómo (solo / con Martín / pidió que cargue Martín),Comentarios espontáneos
+Valentina,real,2026-11-17,no enviado (cierre anticipado),0,0,0,,0 (cerrada el día del aviso),,"""Está buenísima la idea. Me gustó. El tema del Excel es simple, ojo que todos pueden modificar los datos. Si no sabés de Excel, quizás ponerle filtros o búsqueda."""
+José María,real,2026-11-17,no enviado (cierre anticipado),0,0,0,,0 (cerrada el día del aviso),,"""¡Piola, che!"""
+{vecino 3},real,2026-11-17,no enviado (cierre anticipado),0,0,0,,0 (cerrada el día del aviso),,
+{vecino 4},real,2026-11-17,no enviado (cierre anticipado),0,0,0,,0 (cerrada el día del aviso),,
+{vecino 5},real,2026-11-17,no enviado (cierre anticipado),0,0,0,,0 (cerrada el día del aviso),,"""Piola, che."""
+Roberto,real,2026-11-17,no enviado (cierre anticipado),0,0,0,,0 (cerrada el día del aviso),,
+Nota,,,,,,,,,,"Comentarios sin atribuir a un editor: ""¿No se puede hacer una web? Me gusta la idea como inicial.""; ""Esto nos ahorra la búsqueda. Gracias, Martín.""; ""Muy bueno... después lo miro bien.""; ""Está bueno para que sea una web."" Cierre 2026-11-17 como inconclusive (decisión del PM): historial de versiones sin ediciones de ningún editor."

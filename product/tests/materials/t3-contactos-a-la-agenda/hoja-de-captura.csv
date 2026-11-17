@@ -1,0 +1,15 @@
+Casa,Persona,Pide en el grupo o sólo lee,Procedencia,Fecha de envío,Contactos enviados,Respondió la pregunta del día 7 (sí / sin respuesta),Contactos "Sauces" en la agenda al día 7,Importó (sí si ≥1),Preguntó cómo importar (sí/no),Comentarios espontáneos
+UF 1,,sin dato,real,2026-11-17,3,,,,,
+UF 2,,sin dato,real,2026-11-17,3,,,,,
+UF 3,,sin dato,real,2026-11-17,3,,,,,
+UF 4,,sin dato,real,2026-11-17,3,,,,,
+UF 5,,sin dato,real,2026-11-17,3,,,,,
+UF 6,,sin dato,real,2026-11-17,3,,,,,
+UF 7,,sin dato,real,2026-11-17,3,,,,,
+UF 8,,sin dato,real,2026-11-17,3,,,,,
+UF 9,,sin dato,real,2026-11-17,3,,,,,
+UF 10,,sin dato,real,2026-11-17,3,,,,,
+UF 11,,sin dato,real,2026-11-17,3,,,,,
+UF 12,,sin dato,real,2026-11-17,3,,,,,
+Nota,,,,,,,,,,"Respuestas al envío (2026-11-17), 12 de 12, sin atribuir a una UF: ""Ok, gracias"" (x2), ""Dale"", ""Me gustaba más el Excel"", ""¿Y la web para cuándo?"", ""Okkk"", 👍, ""La planilla me gusta más"", ""Piolaaaaa"", ""Gracias, Martín"", ""Me sirve... ya los tengo anotados, sería mejor un lugar donde queden guardados"", ""El Excel está más lindo"". No son señal: T3 mide la agenda al día 7. 3 de 12 comparan con la planilla (prefieren la planilla/Excel); 1 dice que ya los anotó (autodeclarado, se verifica el día 7) y pide un lugar central."
+Nota,,,,,,,,,,"Consulta adelantada al día 0 (2026-11-17, decisión del PM de cerrar hoy), sin atribuir a una UF: ""nada"" (x2), ""Sauces, no tengo nada"" → 3 con 0 contactos. ""Sauces: tengo agendados a los vecinos"" y ""todos los vecinos se llaman Sauces al final"" (x3, a confirmar si son 3 personas o el mismo mensaje pegado) → no medibles: el marcador ""Sauces"" choca con cómo los vecinos se agendan entre sí, así que la búsqueda no distingue los contactos del paquete. Sin respuesta: el resto."
